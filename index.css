@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+header .navtitle {
+    display: flex;
+    align-items: center;
+}
+
+header .navtitle img:last-child {
+    margin-left: 3px;
+    margin-top: 6px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+header ul li {
+    padding: 0 10px;
+    
+}
+
+header ul li a {
+    text-decoration: none;
+    color:black;
+    font-size: 1em;
+}
+
+header .btn {
+    padding: 14px 25px;
+    border-radius: 5px;
+    background: linear-gradient(45deg,  #57007B, #6675F7);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.about {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 106px 140px;
+}
+.about .contentbx .heading1 {
+    font-size: 2.5em;
+    font-weight: 100;
+}
+
+.about .contentbx .heading2 {
+    font-size: 3em;
+    
+}
+.about .contentbx .gradient{
+     background: linear-gradient(to right, #DE4396, #0D1C9F);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+
+.about .contentbx p {
+    margin-top:28px;
+    font-size:1em;
+    font-family: 100;
+}
+
+.about .contentbx .btn {
+    margin-top: 75px;
+    padding: 19px 30px;
+    background: #3D63EA;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.service {
+    position: relative;
+    padding: 16px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    background: #f9f9ff;
+}
+
+.service .texttitle {
+    margin: 16px 0;
+}
+.service h2 {
+    color: #1a202c;
+    font-size: 1.8em;
+}
+
+.service .container {
+   margin: 16px 8px;
+}
+
+.service .card {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(333px, 1fr));
+    gap: 20px;
+}
+
+.service .card .servicebx {
+    width: 100%;
+    background: #f9f9ff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    padding: 16px;
+}
+
+.service .card .servicebx .bx h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.service .card .servicebx .bx .gradient {
+    background: linear-gradient(to right, #DE4396, #0D1C9F);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+
+.service .card .servicebx .bxtitle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:#4a556a;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.service .top img {
+    position: absolute;
+    top: -31px;
+    right: 230px;
+    z-index: -1;
+}
+
+.service .top1 img{
+    position: absolute;
+    bottom: -34px;
+    left: 230px;
+    z-index: -1;
+}
