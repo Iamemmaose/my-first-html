@@ -11,7 +11,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 25px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 header .navtitle {
@@ -32,19 +32,19 @@ header ul {
 
 header ul li {
     padding: 0 10px;
-    
+
 }
 
 header ul li a {
     text-decoration: none;
-    color:black;
+    color: black;
     font-size: 1em;
 }
 
 header .btn {
     padding: 14px 25px;
     border-radius: 5px;
-    background: linear-gradient(45deg,  #57007B, #6675F7);
+    background: linear-gradient(45deg, #57007B, #6675F7);
     color: #fff;
     cursor: pointer;
     border: none;
@@ -57,6 +57,7 @@ header .btn {
     align-items: center;
     padding: 106px 140px;
 }
+
 .about .contentbx .heading1 {
     font-size: 2.5em;
     font-weight: 100;
@@ -64,17 +65,18 @@ header .btn {
 
 .about .contentbx .heading2 {
     font-size: 3em;
-    
+
 }
-.about .contentbx .gradient{
-     background: linear-gradient(to right, #DE4396, #0D1C9F);
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
+
+.about .contentbx .gradient {
+    background: linear-gradient(to right, #DE4396, #0D1C9F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .about .contentbx p {
-    margin-top:28px;
-    font-size:1em;
+    margin-top: 28px;
+    font-size: 1em;
     font-family: 100;
 }
 
@@ -92,7 +94,7 @@ header .btn {
     position: relative;
     padding: 16px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
     background: #f9f9ff;
@@ -101,13 +103,14 @@ header .btn {
 .service .texttitle {
     margin: 16px 0;
 }
+
 .service h2 {
     color: #1a202c;
     font-size: 1.8em;
 }
 
 .service .container {
-   margin: 16px 8px;
+    margin: 16px 8px;
 }
 
 .service .card {
@@ -120,7 +123,7 @@ header .btn {
 .service .card .servicebx {
     width: 100%;
     background: #f9f9ff;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     padding: 16px;
 }
 
@@ -132,14 +135,14 @@ header .btn {
 
 .service .card .servicebx .bx .gradient {
     background: linear-gradient(to right, #DE4396, #0D1C9F);
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .service .card .servicebx .bxtitle {
     margin-top: 20px;
     margin-bottom: 20px;
-    color:#4a556a;
+    color: #4a556a;
     font-size: 1em;
     font-weight: 300;
 }
@@ -151,7 +154,7 @@ header .btn {
     z-index: -1;
 }
 
-.service .top1 img{
+.service .top1 img {
     position: absolute;
     bottom: -34px;
     left: 230px;
@@ -172,7 +175,7 @@ header .btn {
 }
 
 .trust .linebx {
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 
 .trust .linebx hr {
@@ -181,33 +184,33 @@ header .btn {
     -webkit-text-fill-color: transparent;
 }
 
-.trust  .textbx {
+.trust .textbx {
     margin-bottom: 20px;
 }
 
-.trust  .textbx h2 {
+.trust .textbx h2 {
     font-size: 35px;
     font-weight: 400;
     line-height: 55px;
     margin-bottom: 20px;
-} 
+}
 
-.trust  .textbx span {
+.trust .textbx span {
     font-size: 35px;
     font-weight: 700;
     line-height: 55px;
 }
 
-.trust  .textbx p {
+.trust .textbx p {
     font-size: 18px;
     font-weight: 400px;
     line-height: 36px;
-    
+
 }
 
-.trust  .textbx .gradient {
+.trust .textbx .gradient {
     background: linear-gradient(to right, #DE4396, #0D1C9F);
-    -webkit-background-clip:text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 18px;
     font-weight: 400px;
@@ -215,19 +218,423 @@ header .btn {
 }
 
 .trust .textbx .linkbx {
-   display: flex;
-   align-items: center;
-   margin-top: 25px;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
 }
-.trust  .textbx a {
+
+.trust .textbx a {
     text-decoration: none;
     font-size: 15px;
     font-weight: 500;
     background: linear-gradient(to right, #DE4396, #0D1C9F);
-    -webkit-background-clip:text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.trust  .textbx a  img {
+.trust .textbx a img {
     margin-left: 5px;
 }
+
+.client {
+    position: relative;
+    background: #f9f9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client .card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 15px 20px;
+}
+
+.client .top {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    z-index: -1;
+}
+
+.work {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 106px 140px;
+}
+
+.work .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.work .container .paragrapghbx {
+    display: flex;
+    width: 727px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.work .container .paragrapghbx .para {
+    width: 535px;
+}
+
+.work .container .paragrapghbx .para p {
+    opacity: 0.5;
+
+}
+
+.work .container .paragrapghbx .appro {
+    margin-left: -600px;
+}
+
+.work .container .paragrapghbx .appro2 {
+    margin-right: -550px;
+    transform: scalex(-1);
+}
+
+.workbx {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 197px;
+}
+
+.workbx .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 162px;
+}
+
+.workbx .content .star {
+    text-align: center;
+    width: 100%;
+}
+
+.workbx .content .namebx {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.workbx .content .namebx h2 {
+
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.workbx .content .namebx p {
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.workbx .content .namebx .head {
+    font-size: 18px;
+    font-weight: 700;
+    color: #57007b;
+}
+
+.workbx .content .namebx .pg {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.work .arr {
+    position: absolute;
+    top: 600px;
+    left: 250px;
+    z-index: 1000;
+}
+
+.work .arr2 {
+    position: absolute;
+    top: 600px;
+    left: 910px;
+    transform: scaleX(-1);
+    z-index: 1000;
+}
+
+.case {
+    position: relative;
+    padding: 106px 140px;
+    background: #f9f9ff;
+    width: 100%;
+}
+
+
+.case .casebx {
+    display: flex;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.case .one {
+    background: rgb(200, 235, 247);
+    width: 523px;
+    height: 416px;
+    margin-left: -20px;
+    border-radius: 5px;
+}
+
+.case .two {
+    background: rgb(216, 248, 216);
+    width: 523px;
+    height: 416px;
+    margin-left: -20px;
+    border-radius: 5px;
+}
+
+.case .three {
+    background: rgb(245, 228, 231);
+    width: 523px;
+    height: 416px;
+    margin-left: -20px;
+    border-radius: 5px;
+}
+
+.case .casebx .textbx .text {
+    padding: 30px;
+    width: 100%;
+    height: 259px;
+}
+
+.case .casebx .textbx .text h2 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.case .casebx .textbx .text p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.case .casebx .textbx .linkbx {
+    display: flex;
+    justify-content: end;
+}
+
+.case .link200 {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+
+}
+
+.case a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    background: linear-gradient(to right, #DE4396, #0D1C9F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.case img {
+    margin-left: 10px;
+}
+
+.build {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.build .buildbx {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    width: 100%;
+}
+
+.build .buildbx .bx200 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 367px;
+    margin-top: 20px;
+
+}
+
+.build .buildbx .bx200 .text p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 30px 0 30px;
+}
+
+.build .buildbx .bx200 .gradient {
+    font-size: 16px;
+    font-weight: 400;
+    background: linear-gradient(to right, #f76680 80%, #57007B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.build .buildbx .bx200 .term h3 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.build .buildbx .bx200 .turn {
+    position: relative;
+    margin: 30px 0 40px;
+    width: 80%;
+}
+
+.build .buildbx .bx200 .turn .line {
+    position: absolute;
+}
+
+.build .buildbx .bx200 .turn .line .vertical {
+    width: 3px;
+    height: 50px;
+}
+
+.build .buildbx .bx200 .turn p {
+    margin-left: 20px;
+}
+
+.box100 {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+}
+
+.box100 h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.box100 p {
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.build .buildbx .order {
+    order: 2;
+}
+
+.design {
+    position: relative;
+    padding: 106px 140px;
+    background: #f9f9ff;
+}
+
+.design .textbx {
+    text-align: center;
+}
+
+.design .designbx {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    width: 100%;
+}
+
+.design .designbx .workdesign {
+    display: flex;
+    padding: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 200px;
+}
+
+.design .designbx .workdesign .imgbx .last {
+    background: linear-gradient(to right, #f76680, #57007B);
+}
+
+.design .designbx .workdesign .text {
+    margin-left: 20px;
+}
+
+.design .designbx .workdesign .text h2 {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.design .designbx .workdesign .text p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 20px 0 10px;
+}
+
+.tech .container .textwork {
+    position: relative;
+    display: inline-flex;
+}
+
+.tech .container .textwork h3 {
+    margin: 0 15px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.tech .container .textwork .firsthead {
+    background: linear-gradient(to right, #DE4396, #57007b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tech .container .textwork .firsthead hr {
+    margin:0 20px 0 ;
+    background: linear-gradient(to right, #DE4396, #57007b);
+    -webkit-background-clip: line;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.tech .textbx {
+    text-align: center;
+}
+
+.tech .techproduct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.tech .techproduct .product1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.tech .techproduct .product1 .imgbx2 {
+    background: #5c2d91;
+    border-radius: 50px;
+    padding: 6px;
+    text-align: center;
+    color: white;
+}
+
+.tech .techproduct .product2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 50px;
+}
+
