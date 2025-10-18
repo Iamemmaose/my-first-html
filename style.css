@@ -157,3 +157,77 @@ header .btn {
     left: 230px;
     z-index: -1;
 }
+
+.trust {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 106px 140px;
+}
+
+.trust .container {
+    display: flex;
+    flex-direction: column;
+    width: 525px;
+}
+
+.trust .linebx {
+    margin-bottom: 20px; 
+}
+
+.trust .linebx hr {
+    background: linear-gradient(to right, #f76680, #57007b);
+    -webkit-background-clip: line;
+    -webkit-text-fill-color: transparent;
+}
+
+.trust  .textbx {
+    margin-bottom: 20px;
+}
+
+.trust  .textbx h2 {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 55px;
+    margin-bottom: 20px;
+} 
+
+.trust  .textbx span {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.trust  .textbx p {
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 36px;
+    
+}
+
+.trust  .textbx .gradient {
+    background: linear-gradient(to right, #DE4396, #0D1C9F);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 36px;
+}
+
+.trust .textbx .linkbx {
+   display: flex;
+   align-items: center;
+   margin-top: 25px;
+}
+.trust  .textbx a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    background: linear-gradient(to right, #DE4396, #0D1C9F);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+
+.trust  .textbx a  img {
+    margin-left: 5px;
+}
