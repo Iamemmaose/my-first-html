@@ -597,7 +597,7 @@ header .btn {
 }
 
 .tech .container .textwork .firsthead hr {
-    margin:0 20px 0 ;
+    margin: 0 20px 0;
     background: linear-gradient(to right, #DE4396, #57007b);
     -webkit-background-clip: line;
     -webkit-text-fill-color: transparent;
@@ -614,7 +614,7 @@ header .btn {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 .tech .techproduct .product1 {
@@ -635,6 +635,262 @@ header .btn {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
+.development {
+    position: relative;
+    padding: 106px 140px;
+}
+
+.development .textbx {
+    text-align: center;
+}
+
+.developbx {
+    position: relative;
+    width: 100%;
+}
+
+.developbx .content001 {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-top: 20px;
+
+}
+
+.developbx .content001 .textbx {
+    width: 289px;
+    text-align: left;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.developbx .content001 .textbx h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.developbx .content001 .textbx span {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 10px 0;
+    background: linear-gradient(to right, #f76680, #57007B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.developbx .content001 .textbx p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 10px 0;
+}
+
+.developbx .horizontal {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.developbx .horizontal .straight {
+    background: linear-gradient(to right, #f76680, #57007B);
+    -webkit-background-clip: line;
+    -webkit-text-fill-color: transparent;
+}
+
+.resources {
+    position: relative;
+    padding: 106px 140px;
+    width: 100%;
+}
+
+.resources .textbx {
+    text-align: center;
+}
+
+.resources .resourcebx {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.resources .resourcebx .con {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.resources .resourcebx .con p {
+    margin: 15px 0 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.resources .resourcebx .con .link0 {
+    display: flex;
+    justify-content: end;
+
+}
+
+.resources .resourcebx .con a {
+    text-decoration: none;
+    color: #57007b;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.resources .resourcebx .con .read {
+    margin-left: 10px;
+}
+
+.hire {
+    position: relative;
+    padding: 106px 140px;
+}
+
+.hire .content {
+    position: relative;
+    background: linear-gradient(to right, #f1f1f5, #e4ecf7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    border-radius: 5px;
+}
+
+.hire .content .text {
+    width: 531px;
+}
+
+
+.hire .content .text p {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.hire .content .top {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 262px;
+    height: 57px;
+}
+
+
+.hire .content .top .hr1 hr {
+    background: linear-gradient(to right, #ffef5e, #f7936f);
+    -webkit-background-clip: line;
+    -webkit-text-fill-color: transparent;
+}
+
+.hire .content .top .text {
+    width: 100%;
+}
+
+.hire .content .top .text a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700px;
+    padding: 10px;
+    background: linear-gradient(to right, #ffef5e, #f7936f);
+}
+
+.hire .content .top .hr1 .one {
+    position: absolute;
+    top: -37px;
+    left: 1px;
+    transform: rotate(240deg);
+}
+
+.hire .content .top .hr1 .two {
+    position: absolute;
+    top: -50px;
+    left: 65px;
+    transform: rotate(270deg);
+}
+
+.hire .content .top .hr1 .three {
+    position: absolute;
+    top: -37px;
+    left: 125px;
+    transform: rotate(299deg);
+}
+
+.hire .content .top .top2{
+    position: absolute;
+    top: 50px;
+    left: 160px;
+    transform: rotate(180deg);
+}
+
+footer {
+    position: relative;
+    padding: 106px 140px;
+}
+
+footer .container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container .content {
+    width: 20%;
+}
+
+footer .container .content p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #718096;
+    margin: 30px 0 30px;
+}
+
+footer .container .content2 {
+    width: 20%;
+}
+
+footer .container .content2 h3,
+footer .container .content3 h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+footer .container .content2 p,
+footer .container .content3 p,
+footer .container .content3 a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #718096;
+    margin-bottom: 10px;
+}
+
+footer .container .content3 {
+    width: 20%;
+}
+
+footer .container .content3 a {
+    text-decoration: none;
+}
+
+footer .container .content4 {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.copyright {
+    text-align: center;
+    padding:20px;
+    color:#718096;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid rgba(0,0,0,0.1);
+}
